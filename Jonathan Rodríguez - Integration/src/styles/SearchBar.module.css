@@ -1,0 +1,48 @@
+.busquedaContenedor {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+}
+
+.busqueda {
+    display: inline;
+    width: 8rem;
+    height: 2rem;
+    background: #dcdcdc;
+    border: none;
+    font-size: 1rem;
+    float: left;
+    color: #000000;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: background 0.5s ease;
+}
+.busqueda:hover {
+    background: #ffffff;
+}
+
+.boton {
+    display: inline;
+    position: relative;
+    height: 2rem;
+    width: 4rem;
+    border: 1px solid #00fd1c;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fbfb4d;
+    transition: background 0.1s ease;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #343333;
+    color: #ffffff;
+}
+.boton:active {
+    border: 1px solid red;
+    color: red;
+}
